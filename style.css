@@ -262,7 +262,7 @@ nav{
 }
 .fixed-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex: 1;
  }
@@ -294,5 +294,5 @@ nav{
     padding-left: 50px;
  }
  .active{
-    background-color: #BBFF2C;
+    display: flex;
  }
