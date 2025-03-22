@@ -226,6 +226,7 @@ section{
     width: 327px;
     height: 161px;
     align-items: center;
+    background-repeat: no-repeat;
 }
 .comment p{
     font-family: 'Comfortaa';
@@ -400,4 +401,30 @@ url(img/comment-mobile.png);
 font-size: 15px;
 max-width: 290px;
 }
-  }
+}
+  .mobile-button{
+    display: none;
+    padding-top: 10px;
+    width: 40px;
+    position: absolute;
+    right: 20px;
+ }
+ .hide{
+    display: none;
+ }
+ @media (max-width: 1000px) {
+    .mobile-button {
+        display: block;
+    }
+ }
+ .mobile-menu{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #200153;
+    min-height: 100vh;
+ }
+.off-scroll{
+    overflow: hidden;
+} 
