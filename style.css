@@ -428,3 +428,12 @@ max-width: 290px;
 .off-scroll{
     overflow: hidden;
 } 
+.button{
+    width: 150px;
+    height: 40px;
+    z-index: 2;
+    }
+    .button a{
+    font-size: 15px;
+    }
+     
